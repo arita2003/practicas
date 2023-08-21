@@ -9,16 +9,16 @@ import { AlertController, ToastController } from '@ionic/angular';
 })
 
 export class HomePage {
-  nombre: string ="Camila";
-  edad = 22;
+  nombre: string ="Araceli";
+  edad = 20;
   user1: string = "";
 
   //   varible tipo arreglo
   lista : any =[
     {
-      nombreU: "Araceli",
-      edadU: 20,
-      direcionU: "Calle San Luis"
+      nombreU: "Camila",
+      edadU: 22,
+      direcionU: "pje.Asuncion"
     }
   ]
 
