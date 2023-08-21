@@ -10,7 +10,7 @@ import { AlertController, ToastController } from '@ionic/angular';
 
 export class HomePage {
   nombre: string ="Araceli";
-  edad = 20;
+  edad =20;
   user1: string = "";
 
   //   varible tipo arreglo
