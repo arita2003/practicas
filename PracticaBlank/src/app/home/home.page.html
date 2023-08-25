@@ -40,7 +40,7 @@
       </ion-button>
      
     </ion-list>
-    <app-componente1 nombre="Araceli"></app-componente1>
+    <app-componente1 [nombre]="Araceli"></app-componente1>
 <!--lista for-->
     <ion-item *ngFor="let x of lista">
       <ion-label>{{x.nombreU | uppercase}} - {{x.edadU}}</ion-label>
