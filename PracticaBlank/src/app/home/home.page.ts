@@ -69,3 +69,5 @@ export class HomePage {
   }
   
 }
+
+//ionic generate page pages/pagina2
