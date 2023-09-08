@@ -9,8 +9,9 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class Pagina1Page implements OnInit {
 
 
-  nombreRecibido:string ="";
+  nombreRecibido:string = "";
   edadRecibida:number = 0;
+  variableStorage: any =""; // any sirve para datos numericos y letras
  
   constructor(private router: Router, private activeRouter: ActivatedRoute) { 
     this.activeRouter.queryParams.subscribe(param =>{
@@ -22,6 +23,7 @@ export class Pagina1Page implements OnInit {
   
 
   ngOnInit() {
+    this.variableStorage = localStorage.getItem('token');
   }
 
 }
